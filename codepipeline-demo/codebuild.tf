@@ -19,7 +19,7 @@ resource "aws_codebuild_project" "demo" {
     compute_type    = "BUILD_GENERAL1_SMALL"
     image           = "aws/codebuild/docker:18.09.0"
     type            = "LINUX_CONTAINER"
-    privileged_mode = true
+    privileged_mode = true 
 
     environment_variable {
       name  = "AWS_DEFAULT_REGION"
