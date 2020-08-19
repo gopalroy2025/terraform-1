@@ -1,4 +1,4 @@
-# terraform-course
+# terraform-practise code 
 
 
 
